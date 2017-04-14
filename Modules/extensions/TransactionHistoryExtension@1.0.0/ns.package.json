@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/TransactionHistory@3.1.0/Templates/transaction_history_list.tpl": "Templates/transaction_history_list.tpl"
+    }    
+}

@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*.*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/Overview@1.1.1/Templates/overview_home.tpl": "Templates/overview_home.tpl"
+    } 
+}

@@ -1,0 +1,114 @@
+/*
+	© 2016 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/
+
+.facets-item-cell-grid {
+	@extend .item-cell;
+}
+
+.facets-item-cell-grid-quick-view-wrapper {
+	@extend .item-cell-quick-view-wrapper;
+}
+
+.facets-item-cell-grid-quick-view-link {
+	@extend .item-cell-quick-view-link;
+}
+
+.facets-item-cell-grid-image-wrapper {
+	position:relative;
+/*	text-align:lefts; */
+}
+
+.facets-item-cell-grid-link-image {}
+
+.facets-item-cell-grid-quick-view-icon {}
+
+.facets-item-cell-grid-stock {}
+
+.facets-item-cell-grid-add-to-cart-itemid {}
+
+.facets-item-cell-grid-details {
+	text-align:left;
+}
+
+.facets-item-cell-grid-image {
+	@extend .item-cell-image;
+	width:100%;
+	height:auto;
+}
+
+.facets-item-cell-grid-title {
+	@extend .item-cell-title;
+	text-align:left;
+}
+
+.facets-item-cell-grid-price {
+	@extend .small-price;
+	margin-bottom:$sc-small-margin;
+}
+
+.facets-item-cell-grid-rating {
+	text-align:left;
+	display: inline-block;
+}
+
+.facets-item-cell-grid .item-details-option-color-tiles-container {
+	@extend .color-picker-sm;
+}
+
+.facets-item-cell-grid .item-details-option-color-label {
+	display:none;
+}
+
+.facets-item-cell-grid {
+	.global-views-star-rating-area {
+		margin-bottom:$sc-small-margin;
+	}
+}
+
+.facets-item-cell-grid-add-to-cart-quantity {
+	@extend .input-medium;
+	// width: 160px;
+	min-width: 160px;
+}
+
+.facets-item-cell-grid-add-to-cart-button {
+	@extend .button-primary;
+	@extend .button-medium;
+}
+.button-group{
+	.btn-wishlist, .btn-compare{
+		color:#fff !important;
+	}
+}
+.product-col {
+    padding: 15px 15px 10px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+	.caption {
+	    padding: 20px 0 !important;
+		a{
+		    h4{
+			    color: #252a2f !important;
+			    font-size: 16px!important;
+			    text-transform: uppercase!important;
+		    }
+		}
+		div.facets-item-cell-grid-price {
+			.item-views-price{
+				 span.item-views-price-exact{
+					span.item-view-price-lead{
+						color: #2f353b !important ;
+						font-size: 24px !important;
+						padding-right: 5px !important;
+					}
+				 } 
+			}
+		}		
+	}
+}
+

@@ -1,0 +1,23 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*"
+        ],
+        "images": [
+            "Images/*"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ],
+        "configuration": [
+            "Configuration/*.json"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/Header@1.2.0/Templates/header.tpl": "Templates/header.tpl",
+        "suitecommerce/Header@1.2.0/Templates/header_logo.tpl": "Templates/header_logo.tpl"
+    }     
+}

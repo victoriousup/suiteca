@@ -1,0 +1,14 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*.tpl"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/ReorderItems@2.2.0/Templates/reorder_items_list.tpl": "Templates/reorder_items_list.tpl"
+    }
+
+}

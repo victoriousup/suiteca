@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/Balance@2.1.1/Templates/balance.tpl": "Templates/balance.tpl"
+    }
+}

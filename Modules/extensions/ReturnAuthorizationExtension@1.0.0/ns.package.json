@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/ReturnAuthorization@3.1.0/Templates/return_authorization_list.tpl": "Templates/return_authorization_list.tpl"
+    }
+}

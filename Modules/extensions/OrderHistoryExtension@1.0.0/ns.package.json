@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/OrderHistory@4.0.0/Templates/order_history_list.tpl": "Templates/order_history_list.tpl"
+    }
+}

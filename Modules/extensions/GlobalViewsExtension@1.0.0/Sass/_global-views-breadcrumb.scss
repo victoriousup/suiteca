@@ -1,0 +1,51 @@
+/*
+	© 2016 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/
+
+.global-views-breadcrumb-item-active {
+	@extend .breadcrumb-item-active;
+}
+
+.global-views-breadcrumb-item {
+	@extend .breadcrumb-item;
+}
+
+.global-views-breadcrumb-divider {
+	@extend .breadcrumb-divider;	
+}
+
+.global-views-breadcrumb {
+	@extend .breadcrumb;	
+	font-size:14px;
+}
+
+.global-views-breadcrumb-divider-icon {
+	@extend .breadcrumb-divider-icon;
+}
+
+.breadcrumb {
+    text-transform: uppercase;
+    padding: 10px 18px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.breadcrumb .global-views-breadcrumb-item {
+    color: #878a8c;
+    font-size: 13px;
+}
+.breadcrumb .global-views-breadcrumb-item a {
+    color: #252a2f;
+}
+.breadcrumb>.global-views-breadcrumb-item-active {
+    color: #777;
+}
+.breadcrumb > li + li:before {
+    content: "\00BB";
+    color: #878a8c;
+}

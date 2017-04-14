@@ -1,0 +1,23 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*"
+        ],
+        "images": [
+            "Images/*"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ],
+        "configuration": [
+            "Configuration/*.json"
+        ]
+    }
+    ,
+    "overrides": {
+        "suitecommerce/Home@2.1.0/Templates/home.tpl": "Templates/home.tpl"
+    }
+}   

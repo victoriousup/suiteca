@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "templates": [
+            "Templates/*"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/ShoppingApplication@3.0.0/Templates/shopping_layout.tpl": "Templates/shopping_layout.tpl"
+    }    
+}

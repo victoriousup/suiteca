@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/MyAccountApplication@3.0.0/Templates/myaccount_layout.tpl": "Templates/myaccount_layout.tpl"
+    } 
+}

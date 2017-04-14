@@ -1,0 +1,15 @@
+{
+	"type": "object",
+	"modifications":[
+		{
+		    "target": "$.properties[home.carouselImages].default",
+		    "action": "add",
+		    "value"	: "img/carousel-home-4.jpg"
+		},
+		{
+		    "target": "$.properties[home.carouselImages].default",
+		    "action": "add",
+		    "value"	: "img/carousel-home-5.jpg"
+		}
+	]
+}

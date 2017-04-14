@@ -1,0 +1,14 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/Invoice@3.1.0/Templates/invoice_open_list.tpl": "Templates/invoice_open_list.tpl",
+        "suitecommerce/Invoice@3.1.0/Templates/invoice_paid_list.tpl": "Templates/invoice_paid_list.tpl"
+    }
+}

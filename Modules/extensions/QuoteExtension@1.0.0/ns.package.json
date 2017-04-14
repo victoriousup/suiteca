@@ -1,0 +1,14 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/Quote@3.2.0/Templates/quote_list.tpl": "Templates/quote_list.tpl"
+    }
+}
