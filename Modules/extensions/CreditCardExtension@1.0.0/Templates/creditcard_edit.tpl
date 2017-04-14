@@ -15,7 +15,7 @@
 <section class="creditcard-edit panel panel-smart">
 	{{#unless isInModalOrHideHeader}}
 	<div class="panel-heading">
-		<h3>
+		<h3 class="panel-title">
 			{{#if isNew}}
 				{{translate 'Add a new Credit Card'}}
 			{{else}}

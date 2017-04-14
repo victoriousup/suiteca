@@ -9,6 +9,7 @@
     },
      "overrides": {
         "suitecommerce/Profile@2.3.0/Templates/profile_information.tpl": "Templates/profile_information.tpl",
-        "suitecommerce/Profile@2.3.0/Templates/profile_emailpreferences.tpl": "Templates/profile_emailpreferences.tpl"
+        "suitecommerce/Profile@2.3.0/Templates/profile_emailpreferences.tpl": "Templates/profile_emailpreferences.tpl",
+        "suitecommerce/Profile@2.3.0/Templates/profile_update_password.tpl": "Templates/profile_update_password.tpl"
     }
 }

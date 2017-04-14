@@ -12,8 +12,10 @@
 	</a>
 {{/if}}
 
-<section class="profile-update-password">
-	<h2 class="profile-update-password-form-title">{{pageHeader}}</h2>
+<section class="profile-update-password panel panel-smart">
+	<div class="panel-heading">
+		<h3 class="profile-update-password-form-title panel-title">{{pageHeader}}</h3>
+	</div>
 	<div data-type="alert-placeholder"></div>
 	<div class="profile-update-password-form-area">
 		<form class="profile-update-password-form">
