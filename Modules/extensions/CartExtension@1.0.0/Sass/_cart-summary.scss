@@ -43,6 +43,7 @@
 
 .cart-summary-expander-body{
 	@extend .accordion-body-alt;
+	background-color: #fff;
 }
 
 .cart-summary-button-estimate{
@@ -59,7 +60,7 @@
 .cart-summary-button-container {
 	@media (min-width: $screen-sm-min), (orientation: landscape) {
 		@extend .col-xs-12;
-		background:$sc-color-theme-background;
+		// background:$sc-color-theme-background;
 		padding:$sc-base-padding * 3;
 		margin-bottom:$sc-small-margin * 2;
 		display: block;
@@ -236,24 +237,26 @@
 
 .cart-summary-button-proceed-checkout{
 	@extend .button-proceed-checkout;
+	width:228px;
+	height: 44px;
 }
 
 .cart-summary-btn-paypal-express{
 	@extend .btn-paypal-express;
 
 	margin-left: -$sc-base-margin * 3;
-  margin-right: -$sc-base-margin * 3;
-  margin-bottom: $sc-base-margin * 3;
-  background-color: $sc-color-theme-background;
-  padding-bottom: $sc-base-padding * 2;
-  padding-top: $sc-base-padding * 2;
-
+	margin-right: -$sc-base-margin * 3;
+	margin-bottom: $sc-base-margin * 3;
+	// background-color: $sc-color-theme-background;
+	padding-bottom: $sc-base-padding * 2;
+	padding-top: $sc-base-padding * 2;
+	margin-top: 0px !important;
 	@media (min-width: $screen-sm-min), (orientation: landscape) {
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: auto;
 		padding-bottom: auto;
-  	padding-top: auto;
+  		padding-top: auto;
 	}
 }
 
