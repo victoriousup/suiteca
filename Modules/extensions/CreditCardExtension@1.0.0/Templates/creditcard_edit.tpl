@@ -12,18 +12,20 @@
 	</a>
 {{/if}}
 
-<section class="creditcard-edit">
+<section class="creditcard-edit panel panel-smart">
 	{{#unless isInModalOrHideHeader}}
-		<h2>
+	<div class="panel-heading">
+		<h3>
 			{{#if isNew}}
 				{{translate 'Add a new Credit Card'}}
 			{{else}}
 				{{translate 'Edit Credit Card'}}
 			{{/if}}
-		</h2>
+		</h3>
 		{{#if isCollectionEmpty}}
 			<p>{{translate 'For faster checkouts, please enter your payment information below'}}</p>
 		{{/if}}
+	</div>
 	{{/unless}}
 
 	<form action="CreditCard.Service.ss" method="POST">

@@ -37,6 +37,8 @@
         "extensions/TransactionHistoryExtension":"1.0.0",
         "extensions/PrintStatementExtension":"1.0.0",
         "extensions/ProfileExtension":"1.0.0",
+        "extensions/AddressExtension":"1.0.0",
+        "extensions/CreditCardExtension":"1.0.0",
         "suitecommerce/Account": "2.2.0",
         "suitecommerce/Address": "2.3.0",
         "suitecommerce/AjaxRequestsKiller": "2.0.1",
@@ -819,12 +821,12 @@
                                 "myaccount-layout.scss"
                             ]
                         },
-                        "Address",
+                        "AddressExtension",
                         "Backbone.CollectionView",
                         "BackboneExtras",
                         "Case",
                         "Cart",
-                        "CreditCard",
+                        "CreditCardExtension",
                         "ErrorManagement",
                         "GlobalViewsExtension",
                         "ItemViews",
