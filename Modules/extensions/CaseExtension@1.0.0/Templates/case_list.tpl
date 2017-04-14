@@ -12,14 +12,14 @@
 	</a>
 {{/if}}
 
-<section class="case-list">
-	<header class="case-list-header">
-		<h2 class="case-list-title">
+<section class="case-list panel panel-smart">
+	<header class="case-list-header panel-heading">
+		<h3 class="case-list-title panel-title">
 			{{pageHeader}}
-		</h2>
+		</h3>
 		<div data-confirm-message class="case-list-confirm-message"></div>
 
-		<a class="case-list-header-button-new" href="#" data-touchpoint="customercenter" data-hashtag="#/newcase">{{translate 'Create New Case'}}</a>
+		<a class="case-list-header-button-new btn btn-warning" href="#" data-touchpoint="customercenter" data-hashtag="#/newcase">{{translate 'Create New Case'}}</a>
 	</header>
 
 	<div data-view="List.Header" class="case-list-list-header-container"></div>

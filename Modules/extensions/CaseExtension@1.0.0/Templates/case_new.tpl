@@ -12,9 +12,9 @@
 	</a>
 {{/if}}
 
-<section class="case-new">
-	<header class="case-new-header">
-		<h2 class="case-new-title">{{pageHeader}}</h2>
+<section class="case-new panel panel-smart">
+	<header class="case-new-header panel-heading">
+		<h3 class="case-new-title panel-title">{{pageHeader}}</h3>
 	</header>
 
 	<div class="case-new-alert-placeholder" data-type="alert-placeholder"></div>
