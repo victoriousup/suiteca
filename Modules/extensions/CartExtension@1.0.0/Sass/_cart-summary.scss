@@ -44,6 +44,7 @@
 .cart-summary-expander-body{
 	@extend .accordion-body-alt;
 	background-color: #fff;
+	width: auto !important;
 }
 
 .cart-summary-button-estimate{

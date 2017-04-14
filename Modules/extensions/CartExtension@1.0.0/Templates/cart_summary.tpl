@@ -146,7 +146,7 @@
 
 			{{#if showPromocodeForm}}
 				<div class="cart-summary-grid">
-					<div class="cart-summary-expander-head" style="padding: 15px;">
+					<div class="cart-summary-expander-head" style="padding-left: 15px;padding-right: 15px;">
 						<a class="cart-summary-expander-head-toggle collapsed" data-toggle="collapse" data-target="#promo-code-container" aria-expanded="false" aria-controls="promo-code-container">
 							{{translate 'Have a Promo Code?'}}
 							<i data-toggle="tooltip" class="cart-summary-expander-tooltip" title="{{translate '<b>Promo Code</b><br>To redeem a promo code, simply enter your information and we will apply the offer to your purchase during checkout.'}}"></i>
