@@ -5,49 +5,8 @@
 	may use this code subject to the terms that govern your access and use.
 }}
 
-
-<!-- <tr>
-	<td class="text-center">
-		<a href="product.html">
-			<img src="images/product-images/cart-thumb-img2.jpg" alt="Product Name" title="Product Name" class="img-thumbnail">
-		</a>
-	</td>
-	<td class="text-center">
-		<a href="product-full.html">Simply Organic seeds</a>
-	</td>							
-	<td class="text-center">
-		<div class="input-group btn-block">
-			<input type="text" name="quantity" value="1" size="1" class="form-control">
-		</div>								
-	</td>
-	<td class="text-center">
-		$150.00
-	</td>
-	<td class="text-center">
-		$150.00
-	</td>
-	<td class="text-center">
-		<button type="submit" title="" class="btn btn-default tool-tip" data-original-title="Update">
-			<i class="fa fa-refresh"></i>
-		</button>
-		<button type="button" title="" class="btn btn-default tool-tip" data-original-title="Remove">
-			<i class="fa fa-times-circle"></i>
-		</button>
-	</td>
-</tr>						
- -->
 <div class="cart-detailed">
 {{#if showLines}}
-<!-- 	<div class="cart-detailed-view-header">
-	<header class="cart-detailed-header">
-		<h1 class="cart-detailed-title">
-			{{pageHeader}}
-			<small class="cart-detailed-title-details-count">
-				{{productsAndItemsCount}}
-			</small>
-		</h1>
-	</header>
-</div> -->
 	<h2 class="main-heading text-center">
 		{{pageHeader}}
 	</h2>

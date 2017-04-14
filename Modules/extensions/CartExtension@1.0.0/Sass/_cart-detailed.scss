@@ -50,7 +50,9 @@
 .cart-detailed-body{
 	@extend .cart-body;
 }
-
+.cart-detailed-body .shopping-cart-table{
+	font-size: 16px;
+}
 .cart-detailed-left{
 	@extend .cart-left;
 }

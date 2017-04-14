@@ -6,7 +6,7 @@
 }}
 
 <tr id="{{lineId}}" data-item-id="{{itemId}}" data-type="order-item" itemscope itemtype="http://schema.org/Product" {{#if showGeneralClass}} class="{{generalClass}}" {{/if}}>
-	<td class="text-center>
+	<td class="text-center">
 		{{#if isNavigable}}
 			<a {{linkAttributes}}>
 				<img src="{{resizeImage item._thumbnail.url 'thumbnail'}}" alt="{{item._thumbnail.altimagetext}}">
@@ -51,21 +51,7 @@
 					<input type="hidden" name="quantity" id="quantity-{{lineId}}" value="1">
 				{{else}}
 					<input type="number" name="quantity" id="quantity-{{lineId}}" class="cart-item-summary-quantity-value quantity-{{lineId}}" value="{{line.quantity}}" min="1"/>
-
-					<!-- <div class="cart-item-summary-item-list-actionable-container-qty"> -->
-						<!-- <label class="cart-item-summary-item-list-actionable-label-qty">{{translate 'Quantity:'}}</label> -->
-<!-- 						<div class="cart-item-summary-item-list-actionable-input-qty">
-								<button class="cart-item-summary-quantity-remove" data-action="minus" {{#if isMinusButtonDisabled}}disabled{{/if}}>-</button>
-								<input type="number" name="quantity" id="quantity-{{lineId}}" class="cart-item-summary-quantity-value quantity-{{lineId}}" value="{{line.quantity}}" min="1"/>
-								<button class="cart-item-summary-quantity-add" data-action="plus">+</button>
-						</div>
-								{{#if showMinimumQuantity}}
-								<small class="cart-item-summary-quantity-title-help">
-								{{translate 'Minimum of $(0) required' minimumQuantity}}
-								</small>
-								{{/if}}
-						</div>
- -->			{{/if}}
+				{{/if}}
 				<div data-type="alert-placeholder"></div>
 			</label>
 		</form>

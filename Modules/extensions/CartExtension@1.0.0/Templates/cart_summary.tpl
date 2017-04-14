@@ -6,81 +6,12 @@
 }}
 
 <div class="cart-summary registration-area">
-	<div class="cart-summary-container">
-		<div class="col-md-6">
-			<div class="panel panel-smart">
-				<div class="panel-heading">
-					<h3 class="panel-title">
-						{{ translate 'Shipping & Taxes'}}
-					</h3>
-				</div>
-				<div class="panel-body">
-				<!-- Form Starts -->
-					<form class="form-horizontal" action="#" data-action="estimate-tax-ship" role="form">
-						<div class="form-group control-group">
-							<label for="inputCountry" class="col-sm-3 control-label">Country :</label>
-							<div class="col-sm-9">
-								<select name="country" class="form-control" id="country" data-action="estimate-tax-ship-country">
-									{{#each countries}}
-										<option value="{{code}}" {{#if selected}}selected{{/if}}>{{name}}</option>
-									{{/each}}
-								</select>
-							</div>
-						</div>
-						{{#if isZipCodeRequire}}
-						<div class="form-group">
-							<label for="zip" class="col-sm-3 control-label">
-							{{#if isDefaultCountryUS}}
-								{{ translate 'Zip Code :' }}
-							{{else}}
-								{{ translate 'Postal Code :' }}
-							{{/if}}
-							</label>
-							<div class="col-sm-9">
-								<input type="text" class="form-control"  name="zip" id="zip" placeholder="Zip Code" value="{{shippingZipCode}}">
-							</div>
-						</div>
-						{{/if}}
-						<div class="form-group" data-validation="control">
-							<div class="col-sm-offset-3 col-sm-9">
-								<button type="submit" class="btn btn-default">
-									{{ translate 'Estimate' }}
-								</button>
-							</div>
-						</div>
-					</form>
-				<!-- Form Ends -->
-				</div>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<div class="panel panel-smart">
-				<div class="panel-heading">
-					<h3 class="panel-title">
-						Discount Coupon Code
-					</h3>
-				</div>
-				<div class="panel-body">
-				<!-- Form Starts -->
-					<form class="form-horizontal" role="form">
-						<div class="form-group">
-							<label for="inputCouponCode" class="col-sm-3 control-label">Coupon Code :</label>
-							<div class="col-sm-9">
-								<input type="text" class="form-control" id="inputCouponCode" placeholder="Coupon Code">
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-sm-offset-3 col-sm-9">
-								<button type="submit" class="btn btn-default">
-									Apply Coupon
-								</button>
-							</div>
-						</div>
-					</form>
-				<!-- Form Ends -->
-				</div>
-			</div>		
-		</div>
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			{{ traslate 'Checkout' }}
+		</h3>
+	</div>
+	<div class="cart-summary-container panel-body">
 		{{#if isPriceEnabled}}
 			<div class="cart-summary-subtotal">
 				<p class="cart-summary-grid-float">
