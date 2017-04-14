@@ -12,9 +12,10 @@
 	</a>
 {{/if}}
 
-<section class="profile-emailpreferences">
-
-	<h2 class="profile-emailpreferences-title">{{pageHeader}}</h2>
+<section class="profile-emailpreferences panel panel-smart">
+	<div class="panel-heading">
+		<h3 class="profile-emailpreferences-title panel-title">{{pageHeader}}</h3>
+	</div>
 	<div class="profile-emailpreferences-alert-placeholder" data-type="alert-placeholder"></div>
 
 	<form class="profile-emailpreferences-form">
