@@ -5,19 +5,21 @@
 	may use this code subject to the terms that govern your access and use.
 }}
 
-<section class="address-edit">
+<section class="address-edit panel panel-smart">
 	{{#unless isInModalOrHideHeader}}
-		<h2>
+		<div class="panel-heading">
+		<h3 class="panel-title">
 			{{#if isAddressNew}}
 				{{translate 'Add a new Address'}}
 			{{else}}
 				{{translate 'Update Address'}}
 			{{/if}}
-		</h2>
+		</h3>
 
 		{{#if isCollectionEmpty}}
 			<p>{{translate 'For faster checkouts, please enter an address bellow.'}}</p>
 		{{/if}}
+		</div>		
 	{{/unless}}
 
 	<form class="address-edit-form" action="addressbook.ss" method="POST">
