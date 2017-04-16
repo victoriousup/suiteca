@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/Wizard@2.2.0/Templates/wizard_step_navigation.tpl": "Templates/wizard_step_navigation.tpl"
+    }    
+}

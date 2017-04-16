@@ -40,6 +40,7 @@
         "extensions/AddressExtension":"1.0.0",
         "extensions/CreditCardExtension":"1.0.0",
         "extensions/CaseExtension":"1.0.0",
+        "extensions/WizardExtension":"1.0.0",
         "suitecommerce/Account": "2.2.0",
         "suitecommerce/Address": "2.3.0",
         "suitecommerce/AjaxRequestsKiller": "2.0.1",
@@ -1009,9 +1010,9 @@
                         "ItemsSearcher",
                         "SiteSearch",
                         "SocialSharing",
-                        "Wizard",
+                        "WizardExtension",
                         {
-                            "module": "Header",
+                            "module": "HeaderExtension",
                             "include": [
                                 "header",
                                 "header-menu",
