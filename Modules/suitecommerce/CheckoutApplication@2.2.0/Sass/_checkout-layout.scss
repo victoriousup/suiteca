@@ -28,3 +28,22 @@
 	@extend .message-warning; 
 	width: 100%;
 }
+
+body{
+	background-color: !important;
+	div{
+		background-color: !important;
+	}
+}
+.article {
+    border: 1px solid #ddd !important;
+    h2, h3{
+    	font-size: 30px !important;
+    }
+    h2.order-wizard-title{
+        padding: 0 30px !important;
+    }
+    .address-edit-fields-group-form-controls p{
+    	background-color: #fff !important;
+    }
+}

@@ -40,7 +40,7 @@ define(
 					//@class Wizard.StepNavigation.View.StepGroupData
 					var step_group_data = {
 							//@property {String} name
-							name: '. ' +step_group.name
+							name: step_group.name
 							//@property {String} listItemClass
 						,	listItemClass: ''
 							//@property {String} linkUrl
